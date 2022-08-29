@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+int x,y,z,p;
+scanf("%d:%d",&x,&y);
+int totalmin;
+totalmin=(x*60)+y;
+int res;
+res=totalmin*11/720+1;
+printf("%d",res);
+return 0;
+}
